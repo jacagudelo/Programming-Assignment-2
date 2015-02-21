@@ -3,7 +3,7 @@
 ##*** Caching the Inverse of a Matrix ***##
 ##***************************************##
 
-##1. In the first function, i created the matrix to invert using the var call "inver"
+##1. In the first function, i created the matrix to invert using the var call "inver".
 makeCacheMatrix <- function(x = matrix()) {
     matrixInv <- NULL
     set <- function(y) {
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## 2. In the second function, i calculate the inverse with the function solve and 
-##    always return a messages that indicate the origin of the data
+##    always return a messages that indicate the origin of the data.
 cacheSolve <- function(x, ...) {
     matrix <- x$getIn()
     if(!is.null(matrix)) {
