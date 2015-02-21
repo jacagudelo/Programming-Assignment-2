@@ -2,6 +2,8 @@
 ##******* Programming Assignment 2 ******##
 ##*** Caching the Inverse of a Matrix ***##
 ##***************************************##
+## February, 21, 2015 - John Alexander Carvajal Agudelo
+##***************************************##
 
 ##1. In the first function, i created the matrix to invert using the var call "inver".
 makeCacheMatrix <- function(x = matrix()) {
