@@ -2,7 +2,6 @@
 ##******* Programming Assignment 2 ******##
 ##*** Caching the Inverse of a Matrix ***##
 ##***************************************##
-## Hi, I use the same idea for the vector, but naming the properties it my way.
 
 ##1. In the first function, i created the matrix to invert using the var call "inver"
 makeCacheMatrix <- function(x = matrix()) {
